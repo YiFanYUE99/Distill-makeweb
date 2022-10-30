@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-10-30T18:54:40+08:00"
+    },
+    {
+      "path": "Game.html",
+      "title": "My favourite game:Heartstone",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-10-30T18:54:41+08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Yifan Yue ",
+      "author": [],
+      "contents": "\r\n\r\n          \r\n          \r\n          Main\r\n          \r\n          \r\n          Game\r\n          \r\n          \r\n          Blog\r\n           \r\n          ▾\r\n          \r\n          \r\n          My 1st Blog\r\n          My 2st Blog\r\n          \r\n          \r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Yifan Yue\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                         Twitter\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                         GitHub\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                         Email\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            \r\n            Bio\r\n            YifanYue grew up in Shanghai,China.\r\n            \r\n            \r\n            Education\r\n            China Agriculture University | Beijing\r\n            M.S. in Pesticides | September 2021 - Now\r\n            China Agriculture University | Beijing\r\n            B.S. in Applied Chemistry | September 2017 - July 2021\r\n            \r\n            \r\n            Experience\r\n            I have learned python, R and C++ through some videos on Bilibili, Youtube and Github. This is a website made by myself in R package “distill”. I do some research on metabolomics and am looking forward to a Doctoral Admission. But I have no offer now.😢 Now I am preparing for Toefl and GRE so I am a bit busy.😀\r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Yifan Yue\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                       Twitter\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                       GitHub\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                       Email\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              \r\n              Bio\r\n              YifanYue grew up in Shanghai,China.\r\n              \r\n              \r\n              Education\r\n              China Agriculture University | Beijing\r\n              M.S. in Pesticides | September 2021 - Now\r\n              China Agriculture University | Beijing\r\n              B.S. in Applied Chemistry | September 2017 - July 2021\r\n              \r\n              \r\n              Experience\r\n              I have learned python, R and C++ through some videos on Bilibili, Youtube and Github. This is a website made by myself in R package “distill”. I do some research on metabolomics and am looking forward to a Doctoral Admission. But I have no offer now.😢 Now I am preparing for Toefl and GRE so I am a bit busy.😀\r\n              \r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
+      "last_modified": "2022-10-30T18:54:41+08:00"
+    }
+  ],
+  "collections": []
+}

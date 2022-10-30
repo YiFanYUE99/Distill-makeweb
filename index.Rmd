@@ -1,0 +1,36 @@
+---
+title: "Yifan Yue "
+image: "images/selfimage.jpg"
+links:
+  - label: '<i class="fab fa-twitter"></i> Twitter'
+    url: 'https://twitter.com/YiFanYue99 target="_blank" '
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: 'https://github.com/YiFanYUE99 target="_blank"'
+  - label: '<i class="fas fa-envelope"></i> Email'
+    url: "mailto:yifanyue@outlook.com"
+output:
+  postcards::trestles
+site: distill::distill_website
+
+---
+ 
+## Bio
+
+YifanYue grew up in Shanghai,China.
+
+## Education
+
+**China Agriculture University** | Beijing
+
+M.S. in Pesticides | September 2021 - Now
+
+**China Agriculture University** | Beijing
+
+B.S. in Applied Chemistry | September 2017 - July 2021
+
+## Experience
+I have learned python, R and C++ through some videos on Bilibili, Youtube and Github.
+This is a website made by myself in R package "distill".
+**I do some research on metabolomics and am looking forward to a Doctoral Admission.** 
+**But I have no offer now.😢** 
+Now I am preparing for Toefl and GRE so I am a bit busy.😀

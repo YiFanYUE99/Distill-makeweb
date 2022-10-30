@@ -1,0 +1,19 @@
+name: "."
+title: "Main"
+description: |
+  Home
+output_dir: "docs"
+theme: YueYF-theme.css
+navbar:
+  right:
+    - text: "Game"
+      href: Game.html
+    - text: "Blog"
+      menu:
+          - text: "My 1st Blog"
+            href: Blog1.html
+          - text: "My 2st Blog"
+            href: Blog2.html
+      
+output: distill::distill_article
+#注意对齐
