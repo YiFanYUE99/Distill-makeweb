@@ -6,13 +6,11 @@ output_dir: "docs"
 theme: YueYF-theme.css
 navbar:
   right:
-    - text: "Game"
-      href: Game.html
-    - text: "Blog"
+    - text: "Research"
       menu:
-          - text: "My 1st Blog"
+          - text: "My 1st Research"
             href: Blog1.html
-          - text: "My 2st Blog"
+          - text: "My 2st Research"
             href: Blog2.html
       
 output: distill::distill_article
