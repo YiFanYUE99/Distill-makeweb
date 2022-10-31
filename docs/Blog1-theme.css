@@ -16,11 +16,11 @@
 
 html {
   /*-- Main font sizes --*/
-  --title-size:      70px;
-  --body-size:       20px;
-  --code-size:       20px;
-  --aside-size:      20px;
-  --fig-cap-size:    20px;
+  --title-size:      50px;
+  --body-size:       1.06rem;
+  --code-size:       14px;
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
   /*-- Main font colors --*/
   --title-color:     #000000;
   --header-color:    rgba(0, 0, 0, 0.8);
@@ -28,125 +28,82 @@ html {
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    "Oswald";
-  --mono-font:       "Oswald";
-  --body-font:       "Raleway";
-  --navbar-font:     "Raleway";  /* websites + blogs only */
+  --heading-font:    sans-serif;
+  --mono-font:       monospace;
+  --body-font:       sans-serif;
+  --navbar-font:     sans-serif;  /* websites + blogs only */
 }
 
 /*-- ARTICLE METADATA --*/
 d-byline {
-  --heading-size:    20px;
+  --heading-size:    0.6rem;
   --heading-color:   rgba(0, 0, 0, 0.5);
-  --body-size:       20px;
+  --body-size:       0.8rem;
   --body-color:      rgba(0, 0, 0, 0.8);
 }
 
 /*-- ARTICLE TABLE OF CONTENTS --*/
-/*左侧读条的内容*/
 .d-contents {
-  --heading-size:    15px;
-  --contents-size:   15px;
+  --heading-size:    18px;
+  --contents-size:   13px;
 }
 
 /*-- ARTICLE APPENDIX --*/
-
 d-appendix {
-  --heading-size:    35px;
+  --heading-size:    15px;
   --heading-color:   rgba(0, 0, 0, 0.65);
-  --text-size:       35px;
-  --text-color:      #0066CC;
+  --text-size:       0.8em;
+  --text-color:      rgba(0, 0, 0, 0.5);
 }
 
 /*-- WEBSITE HEADER + FOOTER --*/
 /* These properties only apply to Distill sites and blogs  */
-/*页头*/
+
 .distill-site-header {
-  --title-size:       25px;
-  --text-color:       #99FFFF;
-  --text-size:        25px;
-  --hover-color:      #99FFFF;
+  --title-size:       45px;
+  --text-color:       #CCCCCC;
+  --text-size:        40px;
+  --hover-color:      white;
   --bkgd-color:       #0066CC;
 }
 
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        20px;
+  --text-size:        15px;
   --hover-color:      white;
   --bkgd-color:       #0F2E3D;
 }
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
-/*最大的标题参数*/
-h1{
+
+d-title h1{
   color:#0066CC;
   font-size:50px;
 }
-/*次大标题*/
-h2{
+d-article h1{
   color:#0066CC;
-  font-size:45px;
+  font-size:35px;
 }
-/*文本*/
-p{
-  color:#000000;
+
+d-article p{
+  color:#0066CC;
   font-size:25px;
 }
 
-/*按钮参数,Studio内看不出来*/
-.btn-outline-dark{
-  background-color: transparent;
-  color: #0066CC;
-  font-size: 25px;
-  border: 1px solid;
-  border-color: #000CC;
-}
-.btn-outline-dark:hover{
-  background-color: #000CC;
-  border-color: #000CC;
-  color:white;
-}
-
-/*次页面设置d-*/
-d-title h1 {
-  color: #0066CC !important;
-  font-size: 45px;
-}
 
 
-d-article h1 {
-  color: #0066CC !important;
-  font-size: 50px;
-}
 
-d-article h2 {
-  color: #0066CC !important;
-  font-size: 35px;
-}
 
-d-article h3 {
-  color: #0066CC !important;
-  font-size: 35px;
-}
 
-d-article li {
-    margin-bottom: 0em;
-}
-/*超链接颜色*/
-d-article a {
-  color: #0033CC;
-  border-bottom: none;/*去掉超链接底部横线*/
-  font-size: 30px;
-}
-/*点击后超链接颜色*/
-d-article a:hover {
-  color: #339900;
-  border-bottom: none; 
-  font-size: 30px;
-}
 
-/*header*/
+
+
+
+
+
+
+
 
 
 

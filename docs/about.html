@@ -2151,8 +2151,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
   </style>
-  <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+  <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Raleway:ital,wght@1,200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&family=Roboto+Slab&display=swap');
   /* base variables */
 
   /* Edit the CSS properties in this file to create a custom
@@ -2169,11 +2169,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   html {
     /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
+    --title-size:      70px;
+    --body-size:       20px;
+    --code-size:       20px;
+    --aside-size:      20px;
+    --fig-cap-size:    20px;
     /*-- Main font colors --*/
     --title-color:     #000000;
     --header-color:    rgba(0, 0, 0, 0.8);
@@ -2181,48 +2181,50 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    "Caveat";
-    --mono-font:       "Caveat";
-    --body-font:       "Caveat";
-    --navbar-font:     "Caveat";  /* websites + blogs only */
+    --heading-font:    "Oswald";
+    --mono-font:       "Oswald";
+    --body-font:       "Raleway";
+    --navbar-font:     "Raleway";  /* websites + blogs only */
   }
 
   /*-- ARTICLE METADATA --*/
   d-byline {
-    --heading-size:    0.6rem;
+    --heading-size:    20px;
     --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
+    --body-size:       20px;
     --body-color:      rgba(0, 0, 0, 0.8);
   }
 
   /*-- ARTICLE TABLE OF CONTENTS --*/
+  /*左侧读条的内容*/
   .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
+    --heading-size:    15px;
+    --contents-size:   15px;
   }
 
   /*-- ARTICLE APPENDIX --*/
+
   d-appendix {
-    --heading-size:    15px;
+    --heading-size:    35px;
     --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
+    --text-size:       35px;
     --text-color:      #0066CC;
   }
 
   /*-- WEBSITE HEADER + FOOTER --*/
   /* These properties only apply to Distill sites and blogs  */
-
+  /*页头*/
   .distill-site-header {
-    --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
+    --title-size:       25px;
+    --text-color:       #99FFFF;
+    --text-size:        25px;
+    --hover-color:      #99FFFF;
     --bkgd-color:       #0066CC;
   }
 
   .distill-site-footer {
     --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
+    --text-size:        20px;
     --hover-color:      white;
     --bkgd-color:       #0F2E3D;
   }
@@ -2232,18 +2234,24 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*最大的标题参数*/
   h1{
     color:#0066CC;
-    font-size:36px;
+    font-size:50px;
   }
   /*次大标题*/
   h2{
     color:#0066CC;
-    font-size:28px;
+    font-size:45px;
+  }
+  /*文本*/
+  p{
+    color:#000000;
+    font-size:25px;
   }
 
   /*按钮参数,Studio内看不出来*/
   .btn-outline-dark{
     background-color: transparent;
     color: #0066CC;
+    font-size: 25px;
     border: 1px solid;
     border-color: #000CC;
   }
@@ -2252,6 +2260,46 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     border-color: #000CC;
     color:white;
   }
+
+  /*次页面设置d-*/
+  d-title h1 {
+    color: #0066CC !important;
+    font-size: 45px;
+  }
+
+
+  d-article h1 {
+    color: #0066CC !important;
+    font-size: 50px;
+  }
+
+  d-article h2 {
+    color: #0066CC !important;
+    font-size: 35px;
+  }
+
+  d-article h3 {
+    color: #0066CC !important;
+    font-size: 35px;
+  }
+
+  d-article li {
+      margin-bottom: 0em;
+  }
+  /*超链接颜色*/
+  d-article a {
+    color: #0033CC;
+    border-bottom: none;/*去掉超链接底部横线*/
+    font-size: 30px;
+  }
+  /*点击后超链接颜色*/
+  d-article a:hover {
+    color: #339900;
+    border-bottom: none; 
+    font-size: 30px;
+  }
+
+  /*header*/
 
 
 
@@ -2448,13 +2496,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="nav-right">
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-Research
+Blog
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="Blog1.html">My 1st Research</a>
-<a href="Blog2.html">My 2st Research</a>
+<a href="Blog1.html">Programming💻</a>
+<a href="Blog2.html">My 2st Blog</a>
 </div>
 </div>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
