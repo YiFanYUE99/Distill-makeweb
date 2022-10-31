@@ -56,9 +56,10 @@ create_theme("YueYF-theme")
 #18创建子页面
 create_article("Blog1")#名称需要与site中的href相同
 create_theme("Blog1-theme")
+create_article("Blog2")
+create_article("pinfo")
 
+#上传失败，先 git pull;再git add-A
 
-
-
-
+#19 用xfun包插入让人下载的文件，在pinfo中
 

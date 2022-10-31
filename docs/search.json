@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-10-31T19:26:52+08:00"
+      "last_modified": "2022-10-31T20:40:12+08:00"
     },
     {
       "path": "Blog1.html",
@@ -14,14 +14,35 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nLearn the basic knowledge of C++\r\nStunning pictures using R💇\r\n\r\nLearn the basic knowledge of C++\r\n-Learn with me😄\r\n-If you want to know more , there’s some great videos free on Bilibili created by “Black horse programmer”. However,it is in Chinese👏 \r\nStunning pictures using R💇\r\n-Updating skills for making pictures from time to time🤣 \r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-10-31T19:26:52+08:00"
+      "last_modified": "2022-10-31T20:40:12+08:00"
+    },
+    {
+      "path": "Blog2.html",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-10-31T20:40:13+08:00"
     },
     {
       "path": "index.html",
       "title": "Yifan Yue ",
       "author": [],
-      "contents": "\r\n\r\n          \r\n          \r\n          Main\r\n          \r\n          \r\n          \r\n          \r\n          Blog\r\n           \r\n          ▾\r\n          \r\n          \r\n          Programming💻\r\n          My 2st Blog\r\n          \r\n          \r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Yifan Yue\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                         Twitter\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                         GitHub\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                         Email\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            \r\n            Bio\r\n            YifanYue grew up in Shanghai,China.\r\n            \r\n            \r\n            Education\r\n            China Agriculture University | Beijing\r\n            M.S. in Pesticides | September 2021 - Now\r\n            China Agriculture University | Beijing\r\n            B.S. in Applied Chemistry | September 2017 - July 2021\r\n            \r\n            \r\n            Experience\r\n            I have learned python, R and C++ through some videos on Bilibili, Youtube and Github. This is a website made by myself in R package “distill”. I do some research on metabolomics and am looking forward to a Doctoral Admission. But I have no offer now.😢 Now I am preparing for Toefl and GRE so I am a bit busy.😀\r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Yifan Yue\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                       Twitter\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                       GitHub\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                       Email\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              \r\n              Bio\r\n              YifanYue grew up in Shanghai,China.\r\n              \r\n              \r\n              Education\r\n              China Agriculture University | Beijing\r\n              M.S. in Pesticides | September 2021 - Now\r\n              China Agriculture University | Beijing\r\n              B.S. in Applied Chemistry | September 2017 - July 2021\r\n              \r\n              \r\n              Experience\r\n              I have learned python, R and C++ through some videos on Bilibili, Youtube and Github. This is a website made by myself in R package “distill”. I do some research on metabolomics and am looking forward to a Doctoral Admission. But I have no offer now.😢 Now I am preparing for Toefl and GRE so I am a bit busy.😀\r\n              \r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
-      "last_modified": "2022-10-31T19:26:53+08:00"
+      "contents": "\r\n\r\n          \r\n          \r\n          Main\r\n          \r\n          \r\n          Grades\r\n          \r\n          \r\n          Blog\r\n           \r\n          ▾\r\n          \r\n          \r\n          Programming💻\r\n          My 2st Blog\r\n          \r\n          \r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Yifan Yue\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                         Twitter\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                         GitHub\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                         Email\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            \r\n            Bio\r\n            YifanYue grew up in Shanghai,China.\r\n            \r\n            \r\n            Education\r\n            China Agriculture University | Beijing\r\n            M.S. in Pesticides | September 2021 - Now\r\n            China Agriculture University | Beijing\r\n            B.S. in Applied Chemistry | September 2017 - July 2021\r\n            \r\n            \r\n            Experience\r\n            I have learned python, R and C++ through some videos on Bilibili, Youtube and Github. This is a website made by myself in R package “distill”. I do some research on metabolomics and am looking forward to a Doctoral Admission. But I have no offer now.😢 Now I am preparing for Toefl and GRE so I am a bit busy.😀\r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Yifan Yue\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                       Twitter\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                       GitHub\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                       Email\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              \r\n              Bio\r\n              YifanYue grew up in Shanghai,China.\r\n              \r\n              \r\n              Education\r\n              China Agriculture University | Beijing\r\n              M.S. in Pesticides | September 2021 - Now\r\n              China Agriculture University | Beijing\r\n              B.S. in Applied Chemistry | September 2017 - July 2021\r\n              \r\n              \r\n              Experience\r\n              I have learned python, R and C++ through some videos on Bilibili, Youtube and Github. This is a website made by myself in R package “distill”. I do some research on metabolomics and am looking forward to a Doctoral Admission. But I have no offer now.😢 Now I am preparing for Toefl and GRE so I am a bit busy.😀\r\n              \r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
+      "last_modified": "2022-10-31T20:40:13+08:00"
+    },
+    {
+      "path": "pinfo.html",
+      "title": "Grades",
+      "description": "Yifan's undergraduate and graduate transcript can be download on this page.\n",
+      "author": [
+        {
+          "name": "Yifan Yue",
+          "url": {}
+        }
+      ],
+      "date": "Oct.31.2022",
+      "contents": "\r\n\r\nDownload Yifan's undergraduate transcript\r\nDownload Yifan's graduate transcript\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-10-31T20:40:19+08:00"
     }
   ],
   "collections": []

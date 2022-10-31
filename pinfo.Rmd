@@ -1,0 +1,28 @@
+---
+title: "Grades"
+description: |
+  Yifan's undergraduate and graduate transcript can be download on this page.
+author:
+  - name: Yifan Yue
+date: "Oct.31.2022"
+output: distill::distill_article
+---
+<div class="contributor_org">
+`r xfun::embed_file(here::here("GPA", "Yifan_undergraduate_transcript.pdf"), text = "Download Yifan's undergraduate transcript")`
+
+`r xfun::embed_file(here::here("GPA", "Yifan_graduate_transcript .pdf"), text = "Download Yifan's graduate transcript")`
+
+</div>
+
+<div style="text-align: center">
+
+<img src= "images/cabbage.jpg" width="600px" min-width="300px" max-width="300px" />
+
+</div>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+

@@ -6,6 +6,8 @@ output_dir: "docs"
 theme: YueYF-theme.css
 navbar:
   right:
+    - text: "Grades"
+      href: pinfo.html
     - text: "Blog"
       menu:
           - text: "Programming💻"
