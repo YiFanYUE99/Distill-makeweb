@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 /* base variables */
 
 /* Edit the CSS properties in this file to create a custom
@@ -19,11 +18,11 @@
 
 html {
   /*-- Main font sizes --*/
-  --title-size:      50px;
-  --body-size:       20px;
-  --code-size:       20px;
-  --aside-size:      20px;
-  --fig-cap-size:    20px;
+  --title-size:      40px;
+  --body-size:       15px;
+  --code-size:       15px;
+  --aside-size:      15px;
+  --fig-cap-size:    15px;
   /*-- Main font colors --*/
   --title-color:     #000000;
   --header-color:    rgba(0, 0, 0, 0.8);
@@ -32,17 +31,17 @@ html {
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    "Zen+Antique";
-  --mono-font:       "Arvo";
-  --body-font:       "Slabo+27px";
-  --navbar-font:     "Caveat";  /* websites + blogs only */
+  --mono-font:       "Cormorant:wght@300";
+  --body-font:       "Cormorant:wght@300";
+  --navbar-font:     "Anton";  /* websites + blogs only */
 }
 
 /*-- ARTICLE METADATA --*/
 d-byline {
   --heading-size:    20px;
-  --heading-color:   #00CC66;
+  --heading-color:   #0080FF;
   --body-size:       20px;
-  --body-color:      #00CC66;
+  --body-color:      #0080FF;
 }
 
 /*-- ARTICLE TABLE OF CONTENTS --*/
@@ -66,72 +65,72 @@ d-appendix {
 /*页头*/
 .distill-site-header {
   --title-size:       25px;
-  --text-color:       #CCFFFF;
+  --text-color:       #E0E0E0;
   --text-size:        25px;
   --hover-color:      #808080;
-  --bkgd-color:       #009999;
+  --bkgd-color:       #0066CC;
 }
 
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        20px;
   --hover-color:      #808080;
-  --bkgd-color:       #0F2E3D;
+  --bkgd-color:       #0066CC;
 }
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 /*最大的标题参数*/
 h1{
-  color:#009999;
+  color:#0066CC;
   font-size:40px;
 }
 /*次大标题*/
 h2{
-  color:#009999;
+  color:#0066CC;
   font-size:35px;
 }
 /*文本*/
 p{
   color:#000000;
-  font-size:25px;
+  font-size:20px;
 }
 
 /*按钮参数,Studio内看不出来*/
 .btn-outline-dark{
   background-color: transparent;
-  color: #009999;
-  font-size: 25px;
+  color: #0066CC;
+  font-size: 20px;
   border: 1px solid;
-  border-color: #009999;
+  border-color: #0066CC;
 }
 .btn-outline-dark:hover{
-  background-color: #009999;
-  border-color: #009999;
+  background-color: #0066CC;
+  border-color: #0066CC;
   color:white;
 }
 
 /*次页面设置d-*/
 d-title h1 {
-  color: #009999 !important;
+  color: #0066CC !important;
   font-size: 40px;
 }
 
 
 d-article h1 {
-  color: #00994C !important;
-  font-size: 35px;
+  color: #3399FF !important;
+  font-size: 30px;
   font-weight: normal;
 }
 
 d-article h2 {
-  color: #009999 !important;
-  font-size: 35px;
+  color: #0080FF !important;
+  font-size: 25px;
 }
 
 d-article h3 {
-  color: #009900 !important;
-  font-size: 35px;
+  color: #0080FF !important;
+  font-size: 25px;
 }
 
 d-article li {
@@ -139,55 +138,68 @@ d-article li {
 }
 /*超链接颜色*/
 d-article a {
-  color: #006633;
+  color: #0080FF;
   border-bottom: none;/*去掉超链接底部横线*/
-  font-size: 30px;
+  font-size: 15px;
 }
 /*点击后超链接颜色*/
 d-article a:hover {
-  color: #339900;
+  color: #00CCCC;
   border-bottom: none; 
-  font-size: 30px;
+  font-size: 15px;
 }
 /*设置子页面的字体大小等*/
 d-article p{
   color: #000000 !important;
+  
   font-size: 15px;
   
 }
 
 /*单星号字体*/
 d-article p em{
-  color: #00CC00 !important;
-  font-size: 20px;
+  color: #0080FF;
+  font-size: 15px;
   font-weight: normal;
+}
+d-article p em:hover {
+  
+  color: #00CCCC;
+  border-bottom: 1px solid;
+  font-size: 15px;
+  border-bottom-color: #00CCCC;
 }
 /*双星号字体*/
 d-article p strong{
-  color: #3300CC !important;
+  color: #0080FF !important;
   font-size: 25px;
   font-style: italic;
 }
 /*作者部分*/
 d-byline a{
-  color:#00CC66;
+  color:#0080FF;
   font-size:15px;
 }
 d-byline p{
-  color:#00CC66;
+  color:#0080FF;
+  font-size:15px;
+}
+
+d-byline h3{
+  color:#0080FF;
   font-size:15px;
 }
 
 /*title下的常规文字*/
 d-title p{
-  color:#00CC66;
+  color:#0080FF;
   font-size:15px;
   font-weight: normal;
 }
 
 /*BLOG下颜色*/
 .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header{
-  color: #009999;
+  color: #606060;
 }
 
 
