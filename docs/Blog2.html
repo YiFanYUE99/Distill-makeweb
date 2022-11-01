@@ -2152,8 +2152,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
   </style>
-  <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Raleway:ital,wght@1,200&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&family=Roboto+Slab&display=swap');
+  <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
   /* base variables */
 
   /* Edit the CSS properties in this file to create a custom
@@ -2170,7 +2173,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   html {
     /*-- Main font sizes --*/
-    --title-size:      70px;
+    --title-size:      50px;
     --body-size:       20px;
     --code-size:       20px;
     --aside-size:      20px;
@@ -2182,18 +2185,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    "Raleway";
-    --mono-font:       "Roboto+Slab";
-    --body-font:       "Roboto+Slab";
-    --navbar-font:     "Roboto+Slab";  /* websites + blogs only */
+    --heading-font:    "Zen+Antique";
+    --mono-font:       "Arvo";
+    --body-font:       "Slabo+27px";
+    --navbar-font:     "Caveat";  /* websites + blogs only */
   }
 
   /*-- ARTICLE METADATA --*/
   d-byline {
     --heading-size:    20px;
-    --heading-color:   #0066CC;
+    --heading-color:   #00CC66;
     --body-size:       20px;
-    --body-color:      #0066CC;
+    --body-color:      #00CC66;
   }
 
   /*-- ARTICLE TABLE OF CONTENTS --*/
@@ -2217,16 +2220,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*页头*/
   .distill-site-header {
     --title-size:       25px;
-    --text-color:       #99FFFF;
+    --text-color:       #CCFFFF;
     --text-size:        25px;
-    --hover-color:      #99FFFF;
-    --bkgd-color:       #0066CC;
+    --hover-color:      #808080;
+    --bkgd-color:       #009999;
   }
 
   .distill-site-footer {
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        20px;
-    --hover-color:      white;
+    --hover-color:      #808080;
     --bkgd-color:       #0F2E3D;
   }
 
@@ -2234,53 +2237,54 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Add any additional CSS rules below                      */
   /*最大的标题参数*/
   h1{
-    color:#0066CC;
+    color:#009999;
     font-size:40px;
   }
   /*次大标题*/
   h2{
-    color:#0066CC;
+    color:#009999;
     font-size:35px;
   }
   /*文本*/
   p{
-    color:#000099;
+    color:#000000;
     font-size:25px;
   }
 
   /*按钮参数,Studio内看不出来*/
   .btn-outline-dark{
     background-color: transparent;
-    color: #0066CC;
+    color: #009999;
     font-size: 25px;
     border: 1px solid;
-    border-color: #000CC;
+    border-color: #009999;
   }
   .btn-outline-dark:hover{
-    background-color: #000CC;
-    border-color: #000CC;
+    background-color: #009999;
+    border-color: #009999;
     color:white;
   }
 
   /*次页面设置d-*/
   d-title h1 {
-    color: #0066FF !important;
+    color: #009999 !important;
     font-size: 40px;
   }
 
 
   d-article h1 {
-    color: #6666CC !important;
-    font-size: 40px;
+    color: #00994C !important;
+    font-size: 35px;
+    font-weight: normal;
   }
 
   d-article h2 {
-    color: #0066CC !important;
+    color: #009999 !important;
     font-size: 35px;
   }
 
   d-article h3 {
-    color: #0066CC !important;
+    color: #009900 !important;
     font-size: 35px;
   }
 
@@ -2289,7 +2293,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
   /*超链接颜色*/
   d-article a {
-    color: #0033CC;
+    color: #006633;
     border-bottom: none;/*去掉超链接底部横线*/
     font-size: 30px;
   }
@@ -2301,34 +2305,44 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
   /*设置子页面的字体大小等*/
   d-article p{
-    color: #0066CC !important;
+    color: #000000 !important;
     font-size: 15px;
     
   }
 
   /*单星号字体*/
   d-article p em{
-    color: #3300CC !important;
+    color: #00CC00 !important;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
   }
   /*双星号字体*/
   d-article p strong{
     color: #3300CC !important;
     font-size: 25px;
-    font-weight: bold;
+    font-style: italic;
   }
   /*作者部分*/
   d-byline a{
-    color:#0066CC;
-    font-size:25px;
+    color:#00CC66;
+    font-size:15px;
   }
   d-byline p{
-    color:#0066CC;
-    font-size:25px;
+    color:#00CC66;
+    font-size:15px;
   }
 
+  /*title下的常规文字*/
+  d-title p{
+    color:#00CC66;
+    font-size:15px;
+    font-weight: normal;
+  }
 
+  /*BLOG下颜色*/
+  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header{
+    color: #009999;
+  }
 
 
 
@@ -2566,7 +2580,7 @@ Blog
 </nav>
 </div>
 <h1 id="step1-codeing-your-software-with-tkinter">STEP1 Codeing your software with tkinter</h1>
-<p><strong>Make sure to install the module tkinter</strong></p>
+<p><em>Make sure to install the module tkinter</em></p>
 <p>import tkinter as tk</p>
 <p>import numpy as np</p>
 <p>import pandas as pd</p>
@@ -2629,11 +2643,12 @@ Blog
 <h1 id="step4-use-pyinstaller-to-pack-your-software.">STEP4 Use pyinstaller to pack your software.</h1>
 <p><em>In the terminal of the new virtual environment :</em></p>
 <p><em>set the path to your .py document </em></p>
-<p>cd /d d: <em>Your disk saving the py document </em></p>
+<p>cd /d d:</p>
+<p><em>Your disk saving the py document </em></p>
 <p>cd (your directory)</p>
 <p>pyinstaller -F -w neutralloss.py</p>
-<p><em>However, something wrong happened</em>
-<em>Just do what CMD told you, problem solved!</em></p>
+<p><em>However, something wrong happened</em></p>
+<p><em>Just do what CMD told you, problem solved!</em></p>
 <h1 id="done">DONE!😆</h1>
 <p>-<a href="https://github.com/YiFanYUE99/-A-software-to-find-neutral-loss-/" target="_blank"><em>The code can be download here.</em></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>

@@ -14,11 +14,6 @@ output: distill::distill_article
 
 </div>
 
-<div style="text-align: center">
-
-<img src= "images/cabbage.jpg" width="600px" min-width="300px" max-width="300px" />
-
-</div>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

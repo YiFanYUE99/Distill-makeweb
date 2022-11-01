@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 # STEP1 Codeing your software with tkinter 
 
-**Make sure to install the module tkinter**
+*Make sure to install the module tkinter*
 
  import tkinter as tk
  
@@ -145,13 +145,16 @@ knitr::opts_chunk$set(echo = FALSE)
   
   *set the path to your .py document *
   
-  cd /d d:     *Your disk saving the py document *
+  cd /d d:     
+  
+  *Your disk saving the py document *
   
   cd (your directory)
   
   pyinstaller -F -w neutralloss.py
   
   *However, something wrong happened*
+  
   *Just do what CMD told you, problem solved!*
   
 
