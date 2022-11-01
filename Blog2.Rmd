@@ -119,7 +119,8 @@ knitr::opts_chunk$set(echo = FALSE)
   window.mainloop()
   
 # STEP2 Build a virtual environment in Anaconda Navigator
-
+  
+  *If your navigator doesn't work, cut off the Internet and restart it*
 
  <div style="text-align: center">
  
@@ -128,10 +129,35 @@ knitr::opts_chunk$set(echo = FALSE)
  </div>
  
 # STEP3 Install all the modules using in the software to the virtual environment
+  *In the terminal of the new virtual environment:*
+  
+  *print:*
+  
+  pip install pyinstaller
+  
+  pip install numpy
+  
+  pip install pandas
+  
 
-# STEP4 Use pyinstaller to pack your software. 
+# STEP4 Use pyinstaller to pack your software.
+  *In the terminal of the new virtual environment :*
+  
+  *set the path to your .py document *
+  
+  cd /d d:     *Your disk saving the py document *
+  
+  cd (your directory)
+  
+  pyinstaller -F -w neutralloss.py
+  
+  *However, something wrong happened*
+  *Just do what CMD told you, problem solved!*
+  
 
 # DONE!😆
+
+-<a href="https://github.com/YiFanYUE99/-A-software-to-find-neutral-loss-/" target="_blank">*The code can be download here.*
 
     
 
