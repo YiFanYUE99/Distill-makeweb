@@ -1,5 +1,5 @@
 ---
-title: "Yifan Yue "
+title: "**Yifan Yue** "
 image: "images/selfimage.jpg"
 links:
   - label: '<i class="fab fa-twitter"></i> Twitter'
@@ -14,11 +14,11 @@ site: distill::distill_website
 
 ---
  
-## Bio
+## **Bio**
 
 YifanYue grew up in Shanghai,China.
 
-## Education
+## **Education**
 
 **China Agriculture University** | Beijing
 
@@ -28,7 +28,7 @@ M.S. in Pesticides | September 2021 - Now
 
 B.S. in Applied Chemistry | September 2017 - July 2021
 
-## Experience
+## **Experience**
 I have learned python, R and C++ through some videos on Bilibili, Youtube and Github.
 This is a website made by myself in R package "distill".
 **I do some research on metabolomics and am looking forward to a Doctoral Admission.** 
