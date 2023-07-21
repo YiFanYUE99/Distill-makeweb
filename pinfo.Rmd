@@ -2,9 +2,7 @@
 title: "Grades"
 description: |
   My undergraduate and graduate transcript can be download on this page.
-author:
-  - name: Yifan Yue
-date: "Oct.31.2022"
+
 output: distill::distill_article
 ---
 <div class="contributor_org">
