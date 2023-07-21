@@ -10,10 +10,10 @@ navbar:
       href: pinfo.html
     - text: "Blog"
       menu:
-          - text: "Programming💻"
+          - text: "Personal information"
             href: Blog1.html
-          - text: "Making a software"
-            href: Blog2.html
+          #- text: "-"
+          #  href: Blog2.html
       
 output: distill::distill_article
 #注意对齐

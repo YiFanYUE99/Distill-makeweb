@@ -18,15 +18,10 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-# Learn the basic knowledge of C++ 
 
--<a href="https://github.com/YiFanYUE99/learning-C-" target="_blank">Learn with me😄 
+# My undergraduate graduation photo
 
--<a href="https://www.bilibili.com/video/BV1et411b73Z/?spm_id_from=333.337.search-card.all.click" target="_blank">If you want to know more , there's some great videos free on Bilibili created by "Black horse programmer". However,it is in Chinese👏 </a>
 
-# Stunning pictures using R💇
-
--<a href="https://github.com/YiFanYUE99/Using-R-for-Visualizing" target="_blank">Updating skills for making pictures from time to time🤣 </a>
 
 
 <!-- 插入视频 -->

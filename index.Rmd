@@ -16,7 +16,7 @@ site: distill::distill_website
  
 ## Bio
 
-YifanYue grew up in Shanghai,China.
+YifanYue grew up in Shanghai,China. Born in 1999-10.
 
 ## Education
 
@@ -30,8 +30,9 @@ B.S. in Applied Chemistry | September 2017 - July 2021
 
 ## Experience
 
-I have learned python, R and C++ through some videos on Bilibili, Youtube and Github.
+*I am a graduate student of Associate Professor Wentao Zhu and I am now looking forward to a Doctoral Admission in 2024 Fall*
+
+In addition to acquiring professional knowledge, I took C courses during my undergraduate years and taught myself Python, R as well as basic C++ knowledge.
 
 This is a website made by myself in R package "distill".
 
-**I do some research on metabolomics and am looking forward to a Doctoral Admission in 2024 Fall.** 😀
