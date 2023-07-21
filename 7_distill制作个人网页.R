@@ -51,7 +51,9 @@ create_theme("YueYF-theme")
 #17 选择字体颜色：https://coolors.co/
 #在css中：.distill-site-header改变背景颜色
 #打开网页，按钮右键检查即可查看自己的设置
-
+#
+#注意每次更改完之后一定不要忘了build website
+#
 
 #18创建子页面
 create_article("Blog1")#名称需要与site中的href相同

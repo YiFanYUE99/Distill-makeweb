@@ -3,6 +3,7 @@ title: "Main"
 description: |
   Home
 output_dir: "docs"
+
 theme: YueYF-theme.css
 navbar:
   right:

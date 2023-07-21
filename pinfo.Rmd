@@ -12,7 +12,7 @@ output: distill::distill_article
 
 `r xfun::embed_file(here::here("GPA", "Yifan_graduate_transcript .pdf"), text = "Download Yifan's graduate transcript")`
 
-`r xfun::embed_file(here::here("GPA", "Yifan_Tofel_score .pdf"), text = "Download Yifan's Tofel score transcript")`
+`r xfun::embed_file(here::here("GPA", "Yifan_Tofel_score.pdf"), text = "Download Yifan's Tofel score transcript")`
 
 </div>
 

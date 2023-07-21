@@ -1,5 +1,5 @@
 ---
-title: "Programming💻"
+title: " Resume"
 # description: |
 #   A new article created using the Distill format.
 # author:
@@ -19,7 +19,6 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Resume
 
 **Personal information**
 
