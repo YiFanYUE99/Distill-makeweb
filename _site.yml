@@ -10,7 +10,7 @@ navbar:
       href: pinfo.html
     - text: "Blog"
       menu:
-          - text: "Personal information"
+          - text: "Curriculum Vitae"
             href: Blog1.html
           #- text: "-"
           #  href: Blog2.html

@@ -19,9 +19,38 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# My undergraduate graduation photo
+# Resume
+
+**Personal information**
+
+Name: Yifan Yue
+Gender: Female       Birth date:10/10/1999
+Email: S20213101981@cau.edu.cn
+Address: 207 room, College of Science, China Agricultural University, Beijing, China
+
+**Educational background**
+Master, Pesticides
+China Agricultural University, 2021-2024
+Supervisor:Associate Prof. Wentao Zhu
+General GPA: 3.47/4.0
+
+Bachelor, Applied Chemistry
+China Agricultural University, 2017-2021
+General GPA: 3.29/4.0
+
+**PUBLICATIONS**
+Sinuo Tian, Wei Sun, Xiaoxuan Sun, *Yifan Yue*, Ming Jia, Shiran Huang, Zhiqiang Zhou, Li Li, Jinling Diao, Sen Yan, Wentao Zhu,
+Intergenerational reproductive toxicity of parental exposure to prothioconazole and its metabolite on offspring and epigenetic regulation associated with DNA methylation in zebrafish,
+Environment International
 
 
+**Skills:**
+I have a passion for writing programs, so I learn a lot of basic computer knowledge and I can use a bit C and C++. At the same time, I am adept at using R and python to process data. Although I have no article published yet, I have learnt how to draw most of the metabolomics plots in R and I am familiar with Python package Sklearn. Thus, I can build simple machine learning modern, such as logistic regression, random forest, and support vector machine. These skills may be useful in future scientific research. 
+
+Besides, I have a good command of dealing with HNMR data and I know a bit about using packages like tidymass and XCMS to cope with  mass spectrometry data
+
+Also, I have the basic experiment skills like anatomizing of mice and zebrafish. 
+My Tofel score is 103. Thus, there's no need to worry about whether I can converse with others normally in English.
 
 
 <!-- 插入视频 -->
