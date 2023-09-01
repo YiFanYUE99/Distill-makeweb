@@ -34,6 +34,7 @@ Address: 207 room, College of Science, China Agricultural University, Beijing, C
 
 **Educational background**
 
+
 Master, Pesticides
 
 China Agricultural University, 2021-2024
@@ -60,7 +61,9 @@ Environment International
 
 I have a passion for writing programs, so I learn a lot of basic computer knowledge and I can use a bit C and C++. At the same time, I am adept at using R and python to process data. Although I have no article published yet, I have learnt how to draw most of the metabolomics plots in R and I am familiar with Python package Sklearn. Thus, I can build simple machine learning modern, such as logistic regression, random forest, and support vector machine. These skills may be useful in future scientific research. 
 
-Besides, I have a good command of dealing with HNMR data and I know a bit about using packages like tidymass and XCMS to cope with  mass spectrometry data
+Besides, I have a good command of dealing with HNMR data and I know a bit about using packages like tidymass and XCMS to cope with  mass spectrometry data.
+
+I am currently writing a review on the relationship between gut microbiota and early exposure to environmental pollutants in life.
 
 Also, I have the basic experiment skills like anatomizing of mice and zebrafish. 
 My Tofel score is 103. Thus, there's no need to worry about whether I can converse with others normally in English.

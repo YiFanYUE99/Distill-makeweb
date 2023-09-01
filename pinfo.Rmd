@@ -12,6 +12,8 @@ output: distill::distill_article
 
 `r xfun::embed_file(here::here("GPA", "Yifan_Tofel_score.pdf"), text = "Download Yifan's Tofel score transcript")`
 
+`r xfun::embed_file(here::here("GPA", "Yifan_GRE_score.pdf"), text = "Download Yifan's GRE score transcript")`
+
 </div>
 
 
