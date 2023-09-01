@@ -6,13 +6,13 @@ description: |
 output: distill::distill_article
 ---
 <div class="contributor_org">
-`r xfun::embed_file(here::here("GPA", "Yifan_undergraduate_transcript.pdf"), text = "Download Yifan's undergraduate transcript")`
+`r xfun::embed_file(here::here("GPA", "Yifan_undergraduate_transcript.pdf"), text = "Download Yifan's undergraduate transcript GPA:3.29")`
 
-`r xfun::embed_file(here::here("GPA", "Yifan_graduate_transcript .pdf"), text = "Download Yifan's graduate transcript")`
+`r xfun::embed_file(here::here("GPA", "Yifan_graduate_transcript .pdf"), text = "Download Yifan's graduate transcript GPA:3.47")`
 
-`r xfun::embed_file(here::here("GPA", "Yifan_Tofel_score.pdf"), text = "Download Yifan's Tofel score transcript")`
+`r xfun::embed_file(here::here("GPA", "Yifan_Tofel_score.pdf"), text = "Download Yifan's Tofel score transcript score:103")`
 
-`r xfun::embed_file(here::here("GPA", "Yifan_GRE_score.pdf"), text = "Download Yifan's GRE score transcript")`
+`r xfun::embed_file(here::here("GPA", "Yifan_GRE_score.pdf"), text = "Download Yifan's GRE score transcript score:151+169+3.5")`
 
 </div>
 
