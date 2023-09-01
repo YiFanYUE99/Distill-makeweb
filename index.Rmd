@@ -16,7 +16,7 @@ site: distill::distill_website
  
 ## Bio
 
-YifanYue grew up in Shanghai,China. Born in 1999-10.
+Yifan Yue grew up in Shanghai,China. Born in 1999-10.
 
 ## Education
 
@@ -35,4 +35,3 @@ B.S. in Applied Chemistry | September 2017 - July 2021
 In addition to acquiring professional knowledge, I took C courses during my undergraduate years and taught myself Python, R as well as basic C++ knowledge.
 
 This is a website made by myself in R package "distill".
-

@@ -10,9 +10,9 @@ title: " Resume"
 date: "`r Sys.Date()`"
 output: 
   distill::distill_article:
-    toc: true #给左侧加读条
+    toc: false #给左侧加读条
     toc_depth: 2
-    toc_float: true #读条是否浮动
+    toc_float: false #读条是否浮动
 ---
 
 ```{r setup, include=FALSE}
