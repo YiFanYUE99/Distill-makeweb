@@ -28,7 +28,8 @@ Gender: Female
 
 Birth date:10/10/1999
 
-Email: S20213101981@cau.edu.cn
+Email: S20213101981@cau.edu.cn / yifanyue@outlook.com
+
 
 Address: 207 room, College of Science, China Agricultural University, Beijing, China
 
