@@ -1,5 +1,5 @@
 ---
-title: " Resume"
+title: "Yifan Yue"
 # description: |
 #   A new article created using the Distill format.
 # author:
@@ -12,14 +12,13 @@ output:
   distill::distill_article:
     toc: false #给左侧加读条
     toc_depth: 2
-    toc_float: false #读条是否浮动
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-
+              
 **Personal information**
 
 Name: Yifan Yue
@@ -28,22 +27,21 @@ Gender: Female
 
 Birth date:10/10/1999
 
-Email: S20213101981@cau.edu.cn / yifanyue@outlook.com
+Email: S20213101981@cau.edu.cn / 
 
+yifanyue@outlook.com
 
 Address: 207 room, College of Science, China Agricultural University, Beijing, China
 
 **Educational background**
 
-
 Master, Pesticides
 
 China Agricultural University, 2021-2024
 
-Supervisor:Associate Prof. Wentao Zhu
+Supervisor: Associate Prof. Wentao Zhu
 
 General GPA: 3.47/4.0
-
 
 Bachelor, Applied Chemistry
 
@@ -53,21 +51,54 @@ General GPA: 3.29/4.0
 
 **PUBLICATIONS**
 
-Sinuo Tian, Wei Sun, Xiaoxuan Sun, *Yifan Yue*, Ming Jia, Shiran Huang, Zhiqiang Zhou, Li Li, Jinling Diao, Sen Yan, Wentao Zhu,
-Intergenerational reproductive toxicity of parental exposure to prothioconazole and its metabolite on offspring and epigenetic regulation associated with DNA methylation in zebrafish,
-Environment International
+Sinuo Tian, Wei Sun, Xiaoxuan Sun, Yifan Yue, Ming Jia, Shiran Huang, Zhiqiang Zhou, Li Li, Jinling Diao, Sen Yan, Wentao Zhu, Intergenerational reproductive toxicity of parental exposure to prothioconazole and its metabolite on offspring and epigenetic regulation associated with DNA methylation in zebrafish, Environment International
 
 
-**Skills:**
+**Research Experience:**
 
-I have a passion for writing programs, so I learn a lot of basic computer knowledge and I can use a bit C and C++. At the same time, I am adept at using R and python to process data.  I have learnt how to draw most of the metabolomics plots in R, and made an R package to deal with metabolomics data. Also I am familiar with Python package Sklearn. Thus, I can build simple machine learning modern, such as logistic regression, random forest, and support vector machine. These skills may be useful in future scientific research. 
 
-Besides, I have a good command of dealing with HNMR data and I know a bit about using packages like tidymass and XCMS to cope with  mass spectrometry data.
+*undergraduate program:*
 
-I am currently writing a review on the relationship between gut microbiota and early exposure to environmental pollutants in life.
+1) Adsorption of antibiotics on three-dimensional graphene
 
-Also, I have the basic experiment skills like anatomizing of mice and zebrafish. 
-My Tofel score is 103. There's no need to worry about whether I can converse with others normally in English.
+
+*graduate program:*
+
+1) A Python Tool to find neutral loss in mass spectrum
+
+Download on https://github.com/YiFanYUE99/-A-software-to-find-neutral-loss-/
+
+
+2) A Python-based software to search 13C metabolic flux
+
+
+Download on https://github.com/YiFanYUE99/Metabolicflux/
+
+
+3) Predicting colorectal cancer by untargeted mass spectrum combined with machine learning 
+
+
+<div class="contributor_org">
+`r xfun::embed_file(here::here("GPA", "coloncancer_ML.docx"), text = "Download  manuscript")`
+
+
+4) Create an R package to cope with metabolomics data
+
+
+That’s a package including mass spectrum data analysis, metabolomics data visualization, and some calculation of metabolomics data.
+
+
+Download on https://github.com/YiFanYUE99/meTool
+
+
+**Wet lab Skills:**
+
+Anatomize zebrafish and mice;
+
+Raise HepG2 cell;
+
+Using Q-TOF-MS.
+
 
 
 <!-- 插入视频 -->

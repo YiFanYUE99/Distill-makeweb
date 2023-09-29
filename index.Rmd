@@ -32,6 +32,5 @@ B.S. in Applied Chemistry | September 2017 - July 2021
 
 *I am a graduate student of Associate Professor Wentao Zhu and I am now looking forward to a Doctoral Admission in 2024 Fall*
 
-In addition to acquiring professional knowledge, I took C courses during my undergraduate years and taught myself Python, R as well as basic C++ knowledge.
+In addition to acquiring professional knowledge, I learned Python, R and basic C++ knowledge.
 
-This is a website made by myself in R package "distill".
